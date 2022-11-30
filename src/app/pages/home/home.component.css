@@ -1,0 +1,22 @@
+section.container__home-page{
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: center; 
+    border: solid 1px greenyellow;
+}
+
+article.home-page__main{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: solid 1px red;
+}
+
+.home-page__others{
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: solid 1px green;
+}

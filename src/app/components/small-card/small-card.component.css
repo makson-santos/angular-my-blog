@@ -1,0 +1,28 @@
+.container__small-card{
+    border: solid white 0.2em;
+    width: 100%;    
+    padding: 5px;
+    
+    
+
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+}
+
+.small-card__picture{
+    width: 30%;
+    border: solid purple 0.2em;
+}
+
+.small-card__picture > img{    
+    width: 100%;
+    
+}
+
+.small__title{
+    width: 70%;
+    margin-left: 1.5%;
+    border: solid yellow 0.2em;
+}
