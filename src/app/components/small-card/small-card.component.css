@@ -1,5 +1,4 @@
-.container__small-card{
-    border: solid white 0.2em;
+.container__small-card{    
     width: 100%;    
     padding: 5px;
     
@@ -12,17 +11,14 @@
 }
 
 .small-card__picture{
-    width: 30%;
-    border: solid purple 0.2em;
+    width: 30%;    
 }
 
 .small-card__picture > img{    
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .small__title{
     width: 70%;
-    margin-left: 1.5%;
-    border: solid yellow 0.2em;
+    margin-left: 1.5%;    
 }
