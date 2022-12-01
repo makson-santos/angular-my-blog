@@ -1,0 +1,35 @@
+.content__container{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    max-width: 100%;
+}
+.content__img{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;    
+}
+
+.content__img > img{
+    max-width: 80%;    
+}
+
+.content__title{
+    
+}
+
+.content__description{
+    max-width: 80%;
+    margin-bottom: 15px;
+
+}
+
+.content__btn{
+    background-color: black;
+    color: bisque;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px ;
+    margin-top: 15px;
+}

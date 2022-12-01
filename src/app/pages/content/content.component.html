@@ -1,17 +1,17 @@
 <section class="content__container">
     <div class="content__img">
-        <img src="" alt="">
+        <img src="{{ photoContent }}" alt="">
     </div>
     <div class="content__title">
         <h1>
-            Título da notícia
+            {{ titleContent }}
         </h1>
     </div>
     <div class="content__description">
         <p>
-            Descrição da notícia
+            {{ desciptionContent }}
         </p>
-        <a [routerLink]="['']"><< go back</a>
+        <button class="content__btn" [routerLink]="['']"><< go back</button>
     </div>
 
 </section>
